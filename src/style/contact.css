@@ -1,0 +1,81 @@
+/* form */
+.contact .intro {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.contact form {
+	border: 1px solid;
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+.contact form label {
+	display: block;
+	position: relative;
+}
+
+.contact form label input {
+	all: unset;
+	display: block;
+	margin: 10px 0 20px;
+}
+
+.contact form label .validation {
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: crimson;
+	font-size: 17px;
+}
+
+.contact form label.details textarea {
+	all: unset;
+	display: block;
+	margin: 10px 0 20px;
+	width: calc(100% - 10px);
+}
+
+.contact form label.subject select {
+	display: block;
+	margin: 10px 0 20px;
+	width: 100%;
+	outline: unset;
+}
+
+.contact form label input,
+.contact form label.details textarea {
+	border: 1px solid;
+	padding: 5px;
+}
+/* ^form^ */
+
+/* message of thanks */
+.contact .msg-of-thanks {
+	text-align: center;
+	width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #4caf5096;
+  border: 1px solid;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+.contact .msg-of-thanks .title {
+	font-size: 25px;
+}
+
+.contact .msg-of-thanks .paragraph {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contact .msg-of-thanks .paragraph .link {
+	color: #673ab7;
+	font-weight: bold;
+}
+/* ^message of thanks^ */

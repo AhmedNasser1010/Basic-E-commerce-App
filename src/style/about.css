@@ -1,0 +1,17 @@
+body {
+	background-color: #fafcff;
+}
+
+.about {
+	text-align: center;
+}
+
+.about .title {}
+
+.about .p1 {}
+
+.about .p2 {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}

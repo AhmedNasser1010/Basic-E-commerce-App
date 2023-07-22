@@ -1,0 +1,27 @@
+.nav {
+	background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid;
+  border-radius: 0 0 5px 5px;
+}
+
+.nav .logo {
+	font-weight: bold;
+}
+
+.nav nav a {
+	padding: 0 5px;
+}
+
+.nav nav a,
+.nav .logo {
+	transition: 0.3s;
+}
+
+.nav nav a:hover,
+.nav .logo:hover {
+	color: #9c27b0;
+}

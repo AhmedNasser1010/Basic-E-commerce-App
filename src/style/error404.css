@@ -1,0 +1,12 @@
+.not-found {
+	text-align: center;
+}
+
+.not-found h3 {
+	font-size: 25px;
+}
+
+.not-found .link {
+	color: crimson;
+	font-weight: bold;
+}
